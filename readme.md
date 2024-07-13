@@ -19,7 +19,15 @@ This tool is built by AINative Health using the StanfordAIMI/stanford-deidentifi
    cd local-patient-data-deidentification
    ```
 
-2. Install the required dependencies:
+
+2. Create and activate a virtual environment:
+   ```
+   python -m venv venv
+   source venv/bin/activate # On Windows, use venv\Scripts\activate
+   ```
+
+
+3. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
@@ -33,11 +41,13 @@ This tool is built by AINative Health using the StanfordAIMI/stanford-deidentifi
 
 2. Open your web browser and navigate to the local URL provided by Streamlit (usually http://localhost:8501).
 
-3. Enter the patient data you want to de-identify in the text area.
+3. The wait for the model to be downloaded.
 
-4. Click the "De-identify" button to process the text.
+5. Enter the patient data you want to de-identify in the text area.
 
-5. The de-identified text will appear in a new text area below.
+5. Click the "De-identify" button to process the text.
+
+6. The de-identified text will appear in a new text area below.
 
 ## Privacy and Security
 
